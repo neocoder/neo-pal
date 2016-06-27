@@ -274,7 +274,7 @@ var async = require('async');
 
 var moment = require('moment');
 
-var paths = require('pathsjs');
+var paths = require('neo-paths');
 // ---   Helper Functions ------------------------------
 
 
@@ -1285,7 +1285,7 @@ module.exports = pal;
 // commonjs
 //for (var key in gripTemplate) exports[key] = gripTemplate[key];
 
-},{"./lang":1,"async":3,"moment":4,"path":8,"pathsjs":5}],3:[function(require,module,exports){
+},{"./lang":1,"async":3,"moment":4,"path":8,"neo-paths":5}],3:[function(require,module,exports){
 (function (process){
 /*!
  * async
